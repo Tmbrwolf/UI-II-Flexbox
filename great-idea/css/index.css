@@ -62,3 +62,108 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+    border: 3px solid orange;
+    max-width: 900px;
+    margin: auto;
+}
+
+body {
+ display: flex;
+}
+
+header {
+    border: yellow 2px solid;
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+header nav {
+    border: green 5px solid;
+    display: flex;
+    justify-content: space-between;
+    width: 60%; 
+    
+}
+header nav a {
+    border: purple 2px solid;
+    display: flex;
+    align-items: flex-end;
+}
+
+header .logo {
+    border: 2px red solid;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+
+.cta {
+    border: black 5px solid;
+    display: flex;
+    /* max-width: 80%; */
+    /* margin-left: 90px; */
+     margin-top: 70px;
+    margin-bottom: 30px;
+    /* justify-content: space-around; */
+    
+    
+
+}
+
+.cta-text {
+    border: fuchsia 2px solid;
+     display: flex;
+    flex-direction: column;
+     /* align-items: center; */
+    text-align: center;
+    align-self: center;
+     font-size: 80px;
+    margin-left: 90px; 
+    
+
+}
+
+.cta img {
+    border: blue 2px solid;
+margin-left: 50px;
+/* max-height: 300px; */
+/* margin-bottom: 30px; */
+/* align-content: flex-end;     */
+}
+
+.main-content {
+    display: flex;
+    border: 5px red solid; 
+    flex-flow: row wrap;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.top-content {
+    display: flex;
+    margin-bottom: 20px;
+}
+.bottom-content {
+    display: flex;
+    margin-top: 20px;
+    
+}
+.text-content {
+    padding: 20px;
+}
+
+.contact {
+display: flex;
+flex-direction: column;
+
+}
+.contact p {
+    margin-bottom: 30px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
